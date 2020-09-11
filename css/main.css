@@ -113,6 +113,10 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
@@ -138,9 +142,19 @@ body {
    border-right: solid 2px #7ea3d5;
    padding-right: .5em;
  }
+ header {
+   font-size: 3em;
+   border-bottom: solid 5px #7ea3d5;
+   height: 95px;
+   margin:15px;
+ }
 span {
   font-family: 'Merriweather', serif;
   font-weight: 700;
+}
+footer {
+    height: 80px;
+    width: 100%;
 }
 
 /* ==========================================================================
